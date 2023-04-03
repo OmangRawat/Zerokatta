@@ -1,0 +1,40 @@
+.playerCard {
+  display: grid;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1vh double yellow;
+  margin: auto;
+  padding: 5vh;
+  border-radius: 1rem;
+  font-size: medium;
+  font-weight: bolder;
+}
+.playerCard #playerName {
+  margin-bottom: 3vh;
+  border-radius: 1rem;
+  padding: 1vh;
+}
+.playerCard #symbol {
+  font-size: large;
+}
+.playerCard .chooseSymbol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1vh;
+  margin: auto;
+  font-size: large;
+}
+.playerCard #plus {
+  transform: scale(0.6);
+}
+.playerCard #addDetailsBtn {
+  color: white;
+  background-color: rgba(98, 89, 153, 0.5);
+  padding: 2vh;
+  border-radius: 1rem;
+  margin-top: 2vh;
+  border: 2px solid yellow;
+  font-size: large;
+  font-weight: bolder;
+}/*# sourceMappingURL=PlayerCard.css.map */

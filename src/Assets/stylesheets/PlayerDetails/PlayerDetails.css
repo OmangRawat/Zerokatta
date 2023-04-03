@@ -1,0 +1,37 @@
+.playerDetails {
+  height: 100vh;
+  padding-top: 15vh;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  color: yellow;
+}
+.playerDetails .playerCards {
+  display: flex;
+  margin-bottom: 5vh;
+}
+.playerDetails .centerimg {
+  transform: scale(0.7);
+}
+.playerDetails .gridSize {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2vh;
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bolder;
+  border: none;
+}
+.playerDetails .goToGrid {
+  padding: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bolder;
+  box-shadow: 1px 1px 1px 1px lightcyan;
+  color: rgb(254, 255, 255);
+  background-color: rgba(255, 255, 0, 0.3);
+  border: 1vh double yellow;
+  text-align: center;
+}
+.playerDetails .goToGrid:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=PlayerDetails.css.map */
